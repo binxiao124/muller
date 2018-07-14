@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import MembersSection from '../members-section/index'
-import TeamPage from '../../pages/team/index'
+import TeamPage from 'pages/team'
 
 class App extends Component {
   render() {
