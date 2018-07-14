@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
 
-import MullerLabHeader from '../../pages/muller-lab-header/index'
-import MembersSection from './members-section/index'
+import MullerLabHeader from 'pages/muller-lab-header'
+
+import MembersSection from './members-section'
 
 export default function TeamPage () {
   return (

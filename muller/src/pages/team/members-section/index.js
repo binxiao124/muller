@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-import { BoldTitle } from '../../theme/typography'
+import { BoldTitle } from 'theme/typography'
 import { MemberContainer, MemberImage } from './styled'
 import memberImage from './member-image.png'
 

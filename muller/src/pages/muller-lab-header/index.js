@@ -1,9 +1,15 @@
 import React from 'react'
 
-import Header from ''
+import { Header } from 'theme/typography'
+import mcGillLogo from 'images/mcgill-logo.png'
+
+import { HeaderContainer, Logo } from './styled'
 
 export default function MullerLabHeader () {
   return (
-    <div>Muller Lab</div>
+    <HeaderContainer>
+      <Logo src={mcGillLogo}/>
+      <Header>Muller Lab</Header>
+    </HeaderContainer>
   )
 }
